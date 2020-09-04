@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!-- Basic page needs	============================================ -->
+	<title>Temp</title>
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
+	<meta name="author" content="">
+	<meta name="robots" content="" />
+	
+	<!-- Mobile specific metas		============================================ -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	
+	<!-- Favicon	============================================ -->
+	
+	<!-- <link rel="shortcut icon" href="ico/favicon.png"> -->
+	
+	<!-- Google web fonts	============================================ -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	
+	<!-- Libs CSS	============================================ -->
+	<link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+	<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<link href="js/owl-carousel/assets/owl.carousel.css" rel="stylesheet">
+	<link href="js/owl-carousel/assets/owl.theme.default.min.css" rel="stylesheet">
+	<link href="css/themecss/lib.css" rel="stylesheet">
+	<link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+	
+	<!-- Theme CSS	============================================ -->
+	<link href="css/themecss/so_megamenu.css" rel="stylesheet">
+	<link href="css/themecss/so-categories.css" rel="stylesheet">
+	<link href="css/themecss/so-listing-tabs.css" rel="stylesheet">
+	<link href="css/themecss/so-newletter-popup.css" rel="stylesheet">
+	<link href="css/themecss/just_purchased_notification.css" rel=stylesheet>
+	
+	<link href="css/footer1.css" rel="stylesheet">
+	<link href="css/header1.css" rel="stylesheet">
+	<link id="color_scheme" href="css/theme.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/custom.css">
+	
+	
+</head>
+
+<body class="common-home res layout-home1">
+	<div id="wrapper" class="wrapper-full banners-effect-7">
+		<!-- Header Container  -->
+		<header id="header" class=" variantleft type_1">
+			<!-- Header Top -->
+			<div class="header-top">
+				<div class="container">
+					<div class="row">
+						<!--<div class="header-top-left form-inline col-sm-6 col-xs-6 compact-hidden">
+							
+						</div>-->
+						<div class="header-top-right collapsed-block text-right col-sm-6 compact-hidden">
+							<div class="tabBlock1" id="TabBlock-1">
+								<ul class="top-link list-inline">
+									<li class="wishlist hidden-xs"><a href="#" id="wishlist-total" class="top-link-wishlist" title="Welcome Customer!"><span>Welcome Customer!</span></a></li>
+									<li class="signin"><a href="login.html" class="top-link-checkout" title="Sign In"><span>Sign In</span></a></li>
+									<li class="register"><a href="register.html" title="Register"><span>Register</span></a></li>
+									<li class="wishlist"><a href="my-account.html" id="wishlist-total" class="top-link-wishlist" title="Welcome Customer!"><span>My Account</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //Header Top -->
+			
+			<!-- Header center -->
+			<div class="header-center left">
+				<div class="container">
+					<div class="row" style="position:relative">
+						<span class="fixed-head-toggle">
+							<i class="fa fa-bars"></i>
+						</span>
+						<!-- Logo -->
+						<div class="navbar-logo col-md-3 col-sm-12 col-xs-7">
+							<a href="index.html">
+								<h3 style="margin-top:10px;">ASON STORE</h3>
+								<!-- <img src="img/demo/logo/logo.png" title="Your Store" alt="Your Store"> -->
+							</a>
+						</div>
+						<!-- //end Logo -->
+						
+						<!-- Search -->
+						<div id="sosearchpro" class="col-xs-12 col-sm-8 col-md-5 search-pro">
+							
+							<form method="GET" action="index.html">
+								<div id="search0" class="search input-group">
+									<input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="Search product..." name="search">
+									<span class="input-group-btn">
+										<button type="submit" class="button-search btn btn-primary" name="submit_search"><i class="fa fa-search"></i></button>
+									</span>
+								</div>
+								
+							</form>
+							
+						</div>
+						<!-- //end Search -->
+						
+						<!-- Secondary menu -->
+						<div class="col-md-4 col-sm-4 col-xs-5 shopping_cart pull-right">
+							<div class="header-text hidden-xs">
+								<p><i class="fa fa-phone" aria-hidden="true"></i>	   Call Us: (888) 123456789</p>
+							</div>
+							<!--cart-->
+							<div id="cart" class=" btn-group btn-shopping-cart">
+								<a data-loading-text="Loading..." class="top_cart dropdown-toggle" data-toggle="dropdown">
+									<div class="shopcart">
+										<span class="handle pull-left"></span>
+										<span class="number-shopping-cart">2</span>
+										<span class="title">My Cart</span>
+										<p class="text-shopping-cart cart-total-full"> NRs. 0.00 </p>
+									</div>
+								</a>
+								
+								<ul class="tab-content content dropdown-menu pull-right shoppingcart-box" role="menu">
+									
+									<li>
+										<table class="table table-striped">
+											<tbody>
+												<tr>
+													<td class="text-center" style="width:70px">
+														<a href="product.html"> <img src="img/demo/shop/product/35.jpg" style="width:70px" alt="Filet Mign" title="Filet Mign" class="preview"> </a>
+													</td>
+													<td class="text-left"> <a class="cart_product_name" href="product.html">Filet Mign</a> </td>
+													<td class="text-center"> x1 </td>
+													<td class="text-center"> NRs. 1,202.00 </td>
+													<td class="text-right">
+														<a href="product.html" class="fa fa-edit"></a>
+													</td>
+													<td class="text-right">
+														<a onclick="cart.remove('2');" class="fa fa-times fa-delete"></a>
+													</td>
+												</tr>
+												<tr>
+													<td class="text-center" style="width:70px">
+														<a href="product.html"> <img src="img/demo/shop/product/141.jpg" style="width:70px" alt="Canon EOS 5D" title="Canon EOS 5D" class="preview"> </a>
+													</td>
+													<td class="text-left"> <a class="cart_product_name" href="product.html">Canon EOS 5D</a> </td>
+													<td class="text-center"> x1 </td>
+													<td class="text-center"> NRs. 60.00 </td>
+													<td class="text-right">
+														<a href="product.html" class="fa fa-edit"></a>
+													</td>
+													<td class="text-right">
+														<a onclick="cart.remove('1');" class="fa fa-times fa-delete"></a>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</li>
+									<li>
+										<div>
+											<table class="table table-bordered">
+												<tbody>
+													<tr>
+														<td class="text-left"><strong>Sub-Total</strong>
+														</td>
+														<td class="text-right">NRs. 1,060.00</td>
+													</tr>
+													<tr>
+														<td class="text-left"><strong>Eco Tax (-2.00)</strong>
+														</td>
+														<td class="text-right">NRs. 2.00</td>
+													</tr>
+													<tr>
+														<td class="text-left"><strong>VAT (20%)</strong>
+														</td>
+														<td class="text-right">NRs. 200.00</td>
+													</tr>
+													<tr>
+														<td class="text-left"><strong>Total</strong>
+														</td>
+														<td class="text-right">NRs. 1,262.00</td>
+													</tr>
+												</tbody>
+											</table>
+											<p class="text-right"> <a class="btn view-cart" href="cart.html"><i class="fa fa-shopping-cart"></i>View Cart</a>&nbsp;&nbsp;&nbsp; <a class="btn btn-mega checkout-cart" href="checkout.html"><i class="fa fa-share"></i>Checkout</a> </p>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<!--//cart-->
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- //Header center -->
+			
+			<!-- Header Bottom -->
+			<div class="header-bottom">
+				<div class="container">
+					<div class="row">
+						
+						
+						<!-- Main menu -->
+						<div class="megamenu-hori header-bottom-right  col-md-12 col-sm-12 col-xs-12 ">
+							<div class="responsive so-megamenu ">
+								<nav class="navbar-default">
+									<div class=" container-megamenu  horizontal">
+										
+										<div class="navbar-header">
+											<button   id="show-megamenu" data-toggle="collapse" class="navbar-toggle">
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+										
+										<div class="megamenu-wrapper">
+											<span id="remove-megamenu" class="fa fa-times"></span>
+											<div class="megamenu-pattern">
+												<div class="container">
+													<ul class="megamenu " data-transition="slide" data-animationtime="250">
+														<li class="home hover">
+															<p class="close-menu"></p>
+															<a href="index.html" class="menu1">Home  </a>
+														</li>
+														<li class="with-sub-menu hover">
+															<p class="close-menu"></p>
+															<a href="#" class="clearfix menu1">
+																<strong>Bed Linen</strong>
+																
+															</a>
+															<div class="sub-menu" style="width: 100%; right: 0px; display: none;">
+																<div class="content" style="height: 288px; display: none;">
+																	<div class="row">
+																		<div class="col-md-3">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Listing pages</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-3">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Listing pages</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-3">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Listing pages</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-3">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Listing pages</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="with-sub-menu hover">
+															<p class="close-menu"></p>
+															<a href="#" class="clearfix menu1">
+																<strong>Clothing</strong>
+																
+															</a>
+															<div class="sub-menu" style="width: 100%; right: 0px; display: none;">
+																<div class="content" style="height: 288px; display: none;">
+																	<div class="row">
+																		<div class="col-md-4">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Women's</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-4">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Men's</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																		<div class="col-md-4">
+																			<div class="column">
+																				<a href="#" class="title-submenu">Kids</a>
+																				<div>
+																					<ul class="row-list">
+																						<li><a href="category.html">Category Page 1 </a></li>
+																						<li><a href="category.html">Category Page 2</a></li>
+																						<li><a href="category.html">Category Page 3</a></li>
+																					</ul>
+																					
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</li>
+														<li class="">
+															<p class="close-menu"></p>
+															<a href="#" class="clearfix menu1">
+																<strong>Blog</strong>
+																<span class="label"></span>
+															</a>
+														</li>
+														<li class="">
+															<p class="close-menu"></p>
+															<a href="#" class="clearfix menu1">
+																<strong>About Us</strong>
+																<span class="label"></span>
+															</a>
+														</li>
+														<li class="">
+															<p class="close-menu"></p>
+															<a href="#" class="clearfix menu1">
+																<strong>Contact Us</strong>
+																<span class="label"></span>
+															</a>
+														</li>
+														
+													</ul>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+								</nav>
+							</div>
+						</div>
+						<!-- //end Main menu -->
+						
+					</div>
+				</div>
+				
+			</div>
+			
+			<!-- Navbar switcher -->
+			<!-- //end Navbar switcher -->
+			
+		</header>
+		<!-- //Header Container  -->
+
+	
+	<!-- Footer Container -->
+	<footer class="footer-container type_footer1">
+		<!-- Footer Top Container -->
+		<section class="footer-top">
+			<div class="container content">
+				<div class="">
+					<div class=" collapsed-block ">
+						<div class="module clearfix">
+							<h3 class="modtitle">Contact Us	</h3>
+							<div class="modcontent">
+								<ul class="contact-address">
+									<li><p><span class="fa fa-map-marker"></span><span>Address : </span> My Company, 42 avenue des Champs Elysées</p></li>
+									<li><span class="fa fa-envelope-o"></span><span>Email : </span> <a href="#"> sales@yourcompany.com</a></li>
+									<li><p><span class="fa fa-phone"> </span><span>Phone :</span> 0123456789</p> </li>
+								</ul>
+							</div>
+							<div class="share-icon">
+								<ul>
+									<li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li class="google"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li class="skype"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class=" box-information">
+						<div class="module clearfix">
+							<h3 class="modtitle">Information</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">About Us</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">Order history</a></li>
+									<li><a href="#">Order information</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class=" box-extras">
+						<div class="module clearfix">
+							<h3 class="modtitle">Extras</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">Contact Us</a></li>
+									<li><a href="#">Returns</a></li>
+									<li><a href="#">Site Map</a></li>
+									<li><a href="my-account.html">My Account</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="box-account">
+						<div class="module clearfix">
+							<h3 class="modtitle">My Account</h3>
+							<div class="modcontent">
+								<ul class="menu">
+									<li><a href="#">Brands</a></li>
+									<li><a href="#">Gift Vouchers</a></li>
+									<li><a href="#">Affiliates</a></li>
+									<li><a href="#">Specials</a></li>
+									<li><a href="#" target="_blank">Our Blog</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		</section>
+		<!-- /Footer Top Container -->
+		<div class="footer-mid">
+			<div class=" help">
+				<div class=" container">
+					<div class=" row">
+						<div class="footer-mid-left col-sm-6 col-xs-12">
+							<h3>NEED HELP? </h3>
+							<p>SUPPORT TEAM 24/7 AT (844) 555-8386</p>
+						</div>
+						<div class="footer-mid-right col-sm-6 col-xs-12">
+							<div class="btn-sub">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<input class="autosearch-input form-control" type="text" value="" size="50" autocomplete="off" placeholder="Your Email Address..." name="subscribe">
+								<button type="submit" class="button-search btn btn-primary" name="submit_subscribe">Send Email</button>
+							</div>
+							<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom-block ">
+			<div class=" container">
+				<div class="row">
+					
+					<div class="col-sm-6">
+						<div class="text-footer-bot float-left">
+							<p>Coded with <i class="fa fa-heart"></i> by <a href="#">KTMRush</a></p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="text-footer-bot">
+							<p>Copyrights 2020 - Ason Store</p>
+						</div>
+					</div>
+					<div class="back-to-top"><i class="fa fa-angle-up"></i><span> Top </span></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- //end Footer Container -->
+	
+	<div class="mobile footer-nav">
+		<div class="nav-flex-box">
+			<div class="single-nav-box">
+				<a href="#">
+					<img src="./img/files/offer.png" alt="" class="d-block ml-auto mr-auto">
+					<p>Offers</p>
+				</a>
+			</div>
+			<div class="single-nav-box">
+				<a href="#">
+					<img src="./img/files/sale.png" alt="" class="d-block ml-auto mr-auto">
+					<p>Featured</p>
+				</a>
+			</div>
+			<div class="single-nav-box">
+				<a href="#">
+					<img src="./img/files/user.png" alt="" class="d-block ml-auto mr-auto">
+					<p>Account</p>
+				</a>
+			</div>
+			<div class="single-nav-box">
+				<a href="#">
+					<img src="./img/files/phone.png" alt="" class="d-block ml-auto mr-auto">
+					<p>Call</p>
+				</a>
+			</div>
+			<div class="single-nav-box">
+				<a href="#">
+					<img src="./img/files/email.png" alt="" class="d-block ml-auto mr-auto">
+					<p>Email</p>
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Include Libs & Plugins		============================================ -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script type="text/javascript" src="js/jquery-2.2.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="js/themejs/libs.js"></script>
+	<script type="text/javascript" src="js/unveil/jquery.unveil.js"></script>
+	<script type="text/javascript" src="js/countdown/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="js/dcjqaccordion/jquery.dcjqaccordion.2.8.min.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/moment.js"></script>
+	<script type="text/javascript" src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/modernizr/modernizr-2.6.2.min.js"></script>
+	<!-- <script type="text/javascript" src="js/bootstrap-notify.min.js"></script> -->
+	
+	<!-- Theme files		============================================ -->
+	<script type="text/javascript" src="js/themejs/application.js"></script>
+	<script type="text/javascript" src="js/themejs/homepage.js"></script>
+	<!-- <script type="text/javascript" src="js/themejs/toppanel.js"></script> -->
+	<script type="text/javascript" src="js/themejs/so_megamenu.js"></script>
+	<script type="text/javascript" src="js/themejs/addtocart.js"></script>	
+	<script type="text/javascript" src="js/themejs/pathLoader.js"></script>	
+	<script>
+		jQuery(function($){
+			var $navbar = $('#header');
+			$(window).scroll(function(event) {
+				var $current = $(this).scrollTop();
+				if( $current > 200 ){
+					$navbar.addClass('navbar-fixed');
+					$(".fixed-head-toggle").addClass("show");
+				} else {
+					$navbar.removeClass('navbar-fixed');
+					$(".fixed-head-toggle").removeClass("show");
+				}
+			});
+			$(".fixed-head-toggle").click(function(){
+				$(".header-bottom").toggleClass("show-menu");
+			})
+		});
+	</script>
+</body>
+</html>
