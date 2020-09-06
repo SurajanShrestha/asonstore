@@ -5026,7 +5026,9 @@ ul.yt-accordion li.accordion-group h3.accordion-heading:hover .fa {
 .main-container #content .products-list .product-layout .product-item-container .left-block .hover-1 ul li {
 	list-style: none;
 	display: inline-block;
-	width: 25%;
+	/*Changes*/
+	/*width: 25%;*/
+	width: 50%;
 	float: left;
 	height: 0;
 	transition: all .5s;

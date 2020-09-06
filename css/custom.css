@@ -70,6 +70,10 @@
 .so-spotlight-policy .policy-detail .banner-policy .policy3 .icon-policy {
     background: url(../img/theme/icon/home-3/icon-3.png) no-repeat center;
 }
+/*Changes*/
+.so-spotlight-policy .policy-detail .banner-policy .policy4 .icon-policy {
+    background: url(../img/theme/icon/home-3/icon-4.png) no-repeat center;
+}
 .footer-bottom-block {
     background: #222222;
     padding: 10px 0;
@@ -199,4 +203,26 @@
     .fixed-head-toggle{
         display:none;
     }
+}
+
+/*Custom CSS*/
+#content.type-1 .products-list.grid #custom-wishlist-layout{
+    width: 25%;
+}
+@media only screen and (max-width: 600px){
+    #content.type-1 .products-list.grid #custom-wishlist-layout{
+        width: 50%;
+    }   
+}
+.custom-contact{
+    padding: 25px 25px; 
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
+}
+.custom-more-blog{
+    padding: 4px; 
+    margin-bottom: 8px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.15);
+}
+.custom-more-blog:hover{
+    box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.15);
 }

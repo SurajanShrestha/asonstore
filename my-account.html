@@ -340,21 +340,21 @@
 														</li>
 														<li class="">
 															<p class="close-menu"></p>
-															<a href="#" class="clearfix menu1">
+															<a href="blog.html" class="clearfix menu1">
 																<strong>Blog</strong>
 																<span class="label"></span>
 															</a>
 														</li>
 														<li class="">
 															<p class="close-menu"></p>
-															<a href="#" class="clearfix menu1">
+															<a href="about-us.html" class="clearfix menu1">
 																<strong>About Us</strong>
 																<span class="label"></span>
 															</a>
 														</li>
 														<li class="">
 															<p class="close-menu"></p>
-															<a href="#" class="clearfix menu1">
+															<a href="contact.html" class="clearfix menu1">
 																<strong>Contact Us</strong>
 																<span class="label"></span>
 															</a>
@@ -401,10 +401,13 @@
                                     </li>
                                     <li class=""><a href="#address-details" class="cutom-parent">Address Details <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                 
-                                    </li>
-                                    <li class=""><a href="#my-orders" class="cutom-parent">My Orders <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+									</li>
+									<li class=""><a href="#my-wishlist" class="cutom-parent">My Wishlist <i class="fa fa-caret-right" aria-hidden="true"></i></a>
                                 
                                     </li>
+                                    <li class=""><a href="#my-order-history" class="cutom-parent">My Order History <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+                                
+									</li>
                                 </ul>
                             </div>
                         </div>
@@ -430,7 +433,7 @@
                                         </div>
 									</div>
 									<div class="bottom-form">
-                                        <a href="#" class="btn btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Personal Details</a>
+                                        <a href="edit-personal-details.html" class="btn btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Personal Details</a>
                                         
                                     </div>
 								</div>
@@ -451,16 +454,55 @@
                                             </div>
 										</div>
 										<div class="bottom-form">
-                                            <a href="#" class="forgot">Forgot Password</a>
-                                            <a href="#" class="btn btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Address Details</a>
+                                            <a href="edit-address-details.html" class="btn btn-primary pull-right"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Address Details</a>
 										</div>
 									</div>
                                 </form>
-                                
-                                <div id="my-orders" class="col-sm-12" style="margin-bottom: 16px;">
+								
+								<div id="my-wishlist" class="col-sm-12" style="margin-bottom: 16px;">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
-                                            <h4 class="panel-title"><i class="fa fa-shopping-cart"></i> My Orders</h4>
+                                            <h4 class="panel-title"><i class="fa fa-shopping-cart"></i> My Wishlist</h4>
+                                        </div>
+                                        <div class="panel-body" style="justify-content: center;">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <td class="text-center">Image</td>
+                                                            <td class="text-left">Product Name</td>
+                                                            <!--<td class="text-left">Quantity</td>-->
+                                                            <td class="text-right">Price Per Piece</td>
+                                                            <td class="text-right">Add to Cart</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product.html"><img width="60px" src="img/demo/shop/product/E4.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" class="img-thumbnail"></a></td>
+                                                            <td class="text-left"><a href="product.html">Emasa rumas gacem</a><br><span>Size: Single</span>&emsp;<span>Color: Multicolor</span></td>
+															<td class="text-right">$114.35</td>
+															<td class="text-right"><button class="btn btn-primary" title="" data-toggle="tooltip" onclick="cart.add('48');" type="button" data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i></button></td>	
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-center"><a href="product.html"><img width="60px" src="img/demo/shop/product/E2.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" class="img-thumbnail"></a></td>
+                                                            <td class="text-left"><a href="product.html">Emasa rumas gacem</a><br><span>Size: Single</span>&emsp;<span>Color: Multicolor</span></td>
+															<td class="text-right">$114.35</td>
+															<td class="text-right"><button class="btn btn-primary" title="" data-toggle="tooltip" onclick="cart.add('48');" type="button" data-original-title="Add to Cart"><i class="fa fa-shopping-cart"></i></button></td>
+                                                        </tr>
+                                                    </tbody>                                                                      
+                                                </table>
+                                            </div>
+										</div>
+										<div class="bottom-form">
+											<a href="wishlist.html" class="btn btn-primary pull-right"><i class="fa fa-shopping-cart" aria-hidden="true"></i> View All</a>
+										</div>
+									</div>
+                                </div>
+								
+                                <div id="my-order-history" class="col-sm-12" style="margin-bottom: 16px;">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h4 class="panel-title"><i class="fa fa-shopping-cart"></i> My Order History</h4>
                                         </div>
                                         <div class="panel-body">
                                             <div class="table-responsive">
@@ -468,22 +510,24 @@
                                                     <thead>
                                                         <tr>
                                                             <td class="text-center">Image</td>
-                                                            <td class="text-left">Product Name</td>
+															<td class="text-left">Product Name</td>
+															<td class="text-left">Placed On</td>
                                                             <td class="text-left">Quantity</td>
-                                                            <td class="text-right">Unit Price</td>
+                                                            <td class="text-right">Price Per Piece</td>
                                                             <td class="text-right">Total</td>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td class="text-center"><a href="product.html"><img width="60px" src="img/demo/shop/product/E4.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" class="img-thumbnail"></a></td>
-                                                            <td class="text-left"><a href="product.html">Emasa rumas gacem</a><br><span>Size: Single</span>&emsp;<span>Color: Multicolor</span></td>
+															<td class="text-left"><a href="product.html">Emasa rumas gacem</a><br><span>Size: Single</span>&emsp;<span>Color: Multicolor</span></td>
+															<td class="text-left">2020-06-15</td>
                                                             <td class="text-left"><div class="input-group btn-block checkout" style="min-width: 100px;">
                                                                 <input type="number" disabled name="quantity" value="1" size="1" class="form-control">
-                                                                <span class="input-group-btn">
+                                                                <!--<span class="input-group-btn">
                                                                     <button type="submit" data-toggle="tooltip" title="Update" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
                                                                     <button type="button" data-toggle="tooltip" title="Remove" class="btn btn-danger" onClick=""><i class="fa fa-times-circle"></i></button>
-                                                                </span></div>
+                                                                </span></div>-->
                                                             </td>
                                                             <td class="text-right">$114.35</td>
                                                             <td class="text-right">$114.35</td>
@@ -491,12 +535,13 @@
                                                         <tr>
                                                             <td class="text-center"><a href="product.html"><img width="60px" src="img/demo/shop/product/E2.jpg" alt="Xitefun Causal Wear Fancy Shoes" title="Xitefun Causal Wear Fancy Shoes" class="img-thumbnail"></a></td>
                                                             <td class="text-left"><a href="product.html">Emasa rumas gacem</a><br><span>Size: Single</span>&emsp;<span>Color: Multicolor</span></td>
-                                                            <td class="text-left"><div class="input-group btn-block checkout" style="min-width: 100px;">
+															<td class="text-left">2020-06-16</td>
+															<td class="text-left"><div class="input-group btn-block checkout" style="min-width: 100px;">
                                                                 <input type="number" disabled name="quantity" value="1" size="1" class="form-control">
-                                                                <span class="input-group-btn">
+                                                                <!--<span class="input-group-btn">
                                                                     <button type="submit" data-toggle="tooltip" title="Update" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
                                                                     <button type="button" data-toggle="tooltip" title="Remove" class="btn btn-danger" onClick=""><i class="fa fa-times-circle"></i></button>
-                                                                </span></div>
+                                                                </span></div>-->
                                                             </td>
                                                             <td class="text-right">$114.35</td>
                                                             <td class="text-right">$114.35</td>
@@ -504,8 +549,11 @@
                                                     </tbody>                                                                      
                                                 </table>
                                             </div>
-                                        </div>
-                                    </div>
+										</div>
+										<div class="bottom-form">
+											<a href="order-history.html" class="btn btn-primary pull-right"><i class="fa fa-history" aria-hidden="true"></i> View Full Order History</a>
+										</div>
+									</div>
                                 </div>                                
 							</div>
 						</div>
@@ -547,7 +595,7 @@
 							<h3 class="modtitle">Information</h3>
 							<div class="modcontent">
 								<ul class="menu">
-									<li><a href="#">About Us</a></li>
+									<li><a href="about-us.html">About Us</a></li>
 									<li><a href="#">FAQ</a></li>
 									<li><a href="#">Order history</a></li>
 									<li><a href="#">Order information</a></li>
@@ -561,7 +609,7 @@
 							<h3 class="modtitle">Extras</h3>
 							<div class="modcontent">
 								<ul class="menu">
-									<li><a href="#">Contact Us</a></li>
+									<li><a href="contact.html">Contact Us</a></li>
 									<li><a href="#">Returns</a></li>
 									<li><a href="#">Site Map</a></li>
 									<li><a href="my-account.html">My Account</a></li>
@@ -579,7 +627,7 @@
 									<li><a href="#">Gift Vouchers</a></li>
 									<li><a href="#">Affiliates</a></li>
 									<li><a href="#">Specials</a></li>
-									<li><a href="#" target="_blank">Our Blog</a></li>
+									<li><a href="blog.html">Our Blog</a></li>
 								</ul>
 							</div>
 						</div>
