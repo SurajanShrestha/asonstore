@@ -226,3 +226,10 @@
 .custom-more-blog:hover{
     box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.15);
 }
+.related-product .related-product-owl .product-layout .product-item-container .left-block .hover-1 ul #custom-carousel-layout{
+    width: 50%;
+}
+.so-onepagecheckout #custom-edit-panel{
+    margin-bottom: 14px;
+    padding: 0px;
+}
